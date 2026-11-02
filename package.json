@@ -1,0 +1,36 @@
+{
+  "name": "content-generation-interface",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "vite preview"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "drizzle-orm": "^0.45.2",
+    "express": "^5.2.1",
+    "firebase": "^12.14.0",
+    "firebase-admin": "^14.0.0",
+    "lucide-react": "^1.16.0",
+    "pg": "^8.21.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/express": "^5.0.6",
+    "@types/node": "^22.14.0",
+    "@types/pg": "^8.20.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "drizzle-kit": "^0.31.10",
+    "esbuild": "^0.28.0",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.22.4",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0",
+    "vite-plugin-pwa": "^2.0.0"
+  }
+}
